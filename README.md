@@ -2,6 +2,7 @@
 CSL 2050 Course Project.
 
 FILE STRUCTURE:
+```
 .
 ├── LICENSE
 ├── Makefile
@@ -49,5 +50,5 @@ FILE STRUCTURE:
 │       └── visualize.py
 ├── test_environment.py
 └── tox.ini
-
+```
 20 directories, 27 files
