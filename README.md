@@ -1,6 +1,9 @@
 # prml_course_project
 CSL 2050 Course Project.
 
+### Instructions for Team:
+Don't close your own PRs :D
+
 FILE STRUCTURE:
 ```
 .
