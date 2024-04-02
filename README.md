@@ -1,6 +1,7 @@
 # CSL 2050 Course Project. (PRML)
 
 ### Instructions for the Team:
+----------------------------------
 Don't merge your own PRs :D
 
 FILE STRUCTURE:
