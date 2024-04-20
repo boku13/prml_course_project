@@ -5,6 +5,8 @@
 
 https://grave-pyroraptor-4c4.notion.site/PRML-Course-Project-Mid-Term-Report-76c7132de8c049b692f15099b201a3e9
 
+----------------------------------
+
 ### DEMONSTRATION:
 
 - Visit the following webpage to use the retriever: http://boku.pythonanywhere.com/
@@ -12,6 +14,8 @@ https://grave-pyroraptor-4c4.notion.site/PRML-Course-Project-Mid-Term-Report-76c
     -  Set up the project locally using `git clone "project url"`
     -  run 'pip install -r requirements.txt'
     -  run 'python viewer.py'
+
+----------------------------------
 
 ### TEAM MEMBERS:
 1. SHYAM SATHVIK
@@ -21,6 +25,7 @@ https://grave-pyroraptor-4c4.notion.site/PRML-Course-Project-Mid-Term-Report-76c
 5. GUBBALA BHARGAVI
 
 
+----------------------------------
 
 ### File Structure (few omitted)
 
