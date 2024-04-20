@@ -17,7 +17,7 @@ Negative Retrieval (input : frog)
 
 - Visit the following webpage to use the retriever: http://boku.pythonanywhere.com/
 - Or else, 
-    -  Set up the project locally using `git clone "project url"`
+    -  Set up the project locally using `git clone https://github.com/boku13/prml_course_project.git`
     -  run 'pip install -r requirements.txt'
     -  run 'python viewer.py'
 
