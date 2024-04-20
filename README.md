@@ -9,7 +9,7 @@ https://grave-pyroraptor-4c4.notion.site/PRML-Course-Project-Mid-Term-Report-76c
 
 - Visit the following webpage to use the retriever: http://boku.pythonanywhere.com/
 - Or else, 
-    -  set up the project using `git clone "project url"`
+    -  Set up the project locally using `git clone "project url"`
     -  run 'pip install -r requirements.txt'
     -  run 'python viewer.py'
 
