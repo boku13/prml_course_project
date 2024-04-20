@@ -1,4 +1,4 @@
-# CSL 2050 Course Project. (PRML)
+# Pattern Recognition and Machine Learning Course Project (PRML 2050)
 ----------------------------------
 
 ### MID TERM REPORT:
