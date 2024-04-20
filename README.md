@@ -3,7 +3,13 @@
 
 ### MID TERM REPORT:
 
-https://grave-pyroraptor-4c4.notion.site/PRML-Course-Project-Mid-Term-Report-76c7132de8c049b692f15099b201a3e9
+Notion : https://grave-pyroraptor-4c4.notion.site/PRML-Course-Project-Mid-Term-Report-76c7132de8c049b692f15099b201a3e9
+
+Positive Retrieval (input : horse)
+![image](https://github.com/boku13/prml_course_project/assets/120317108/be226bc9-957b-45f2-ba02-68442f4d03ae)
+
+Negative Retrieval (input : frog)
+![image](https://github.com/boku13/prml_course_project/assets/120317108/87da5059-2f6b-4c6b-8a2e-1581492f9205)
 
 ----------------------------------
 
