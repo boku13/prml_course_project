@@ -1,5 +1,27 @@
 # CSL 2050 Course Project. (PRML)
 ----------------------------------
+
+### MID TERM REPORT:
+
+https://grave-pyroraptor-4c4.notion.site/PRML-Course-Project-Mid-Term-Report-76c7132de8c049b692f15099b201a3e9
+
+### DEMONSTRATION:
+
+- Visit the following webpage to use the retriever: http://boku.pythonanywhere.com/
+- Or else, 
+    -  set up the project using `git clone "project url"`
+    -  run 'pip install -r requirements.txt'
+    -  run 'python viewer.py'
+
+### TEAM MEMBERS:
+1. SHYAM SATHVIK
+2. NEERMITA BHATTACHARYA
+3. SIDDESH AYYATHAN
+4. SAKSHI SHARMA
+5. GUBBALA BHARGAVI
+
+
+
 ### File Structure (few omitted)
 
 ```
@@ -53,18 +75,3 @@
 ├── retriever_clustering.py
 └── viewer.py       (PyQT app)
 ```
-
-## DEMONSTRATION:
-
-- Visit the following webpage to use the retriever: 
-- Or else, 
-    -  set up the project using `git clone "project url"`
-    -  run 'pip install -r requirements.txt'
-    -  run 'python viewer.py'
-
-## TEAM MEMBERS:
-1. SHYAM SATHVIK
-2. NEERMITA BHATTACHARYA
-3. SIDDESH AYYATHAN
-4. SAKSHI SHARMA
-5. GUBBALA BHARGAVI
