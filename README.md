@@ -19,11 +19,11 @@ https://grave-pyroraptor-4c4.notion.site/PRML-Course-Project-Mid-Term-Report-76c
 
 ### TEAM MEMBERS:
 <i> 
-1. SHYAM SATHVIK
-2. NEERMITA BHATTACHARYA
-3. SIDDESH AYYATHAN
-4. SAKSHI SHARMA
-5. GUBBALA BHARGAVI
+1. SHYAM SATHVIK</i>
+<i> 2. NEERMITA BHATTACHARYA</i>
+<i> 3. SIDDESH AYYATHAN</i>
+<i> 4. SAKSHI SHARMA</i>
+<i> 5. GUBBALA BHARGAVI
 </i>
 
 ----------------------------------
