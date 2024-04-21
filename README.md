@@ -4,6 +4,17 @@
 ### Related Repository : https://github.com/boku13/image_retrieval
 
 ----------------------------------
+
+### DEMONSTRATION:
+
+- Visit the following webpage to use the retriever: http://boku.pythonanywhere.com/
+- Or else, 
+    -  Set up the project locally using `git clone https://github.com/boku13/prml_course_project.git`
+    -  run 'pip install -r requirements.txt'
+    -  run 'python viewer.py'
+
+----------------------------------
+
 ### MID TERM REPORT:
 
 Notion : https://grave-pyroraptor-4c4.notion.site/PRML-Course-Project-Mid-Term-Report-76c7132de8c049b692f15099b201a3e9
@@ -13,16 +24,6 @@ Positive Retrieval (input : horse)
 
 Negative Retrieval (input : frog)
 ![image](https://github.com/boku13/prml_course_project/assets/120317108/87da5059-2f6b-4c6b-8a2e-1581492f9205)
-
-----------------------------------
-
-### DEMONSTRATION:
-
-- Visit the following webpage to use the retriever: http://boku.pythonanywhere.com/
-- Or else, 
-    -  Set up the project locally using `git clone https://github.com/boku13/prml_course_project.git`
-    -  run 'pip install -r requirements.txt'
-    -  run 'python viewer.py'
 
 ----------------------------------
 
