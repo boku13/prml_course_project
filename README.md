@@ -1,7 +1,7 @@
 # Pattern Recognition and Machine Learning Course Project (PRML 2050)
 ----------------------------------
 
-### Related Repository : http://boku.pythonanywhere.com/
+### Related Repository : https://github.com/boku13/image_retrieval
 
 ----------------------------------
 ### MID TERM REPORT:
