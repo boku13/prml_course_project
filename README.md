@@ -1,57 +1,70 @@
 # CSL 2050 Course Project. (PRML)
-
-### Instructions for the Team:
 ----------------------------------
-Don't merge your own PRs :D
+### File Structure (few omitted)
 
-FILE STRUCTURE:
 ```
-.
-├── LICENSE
-├── Makefile
 ├── README.md
-├── bhargavi_sift.py
+├── cli
+│   ├── cli_tool.py
+│   └── tool.py
 ├── data
-│   ├── external
-│   ├── interim
-│   ├── processed
-│   └── raw
-├── docs
-│   ├── Makefile
-│   ├── commands.rst
-│   ├── conf.py
-│   ├── getting-started.rst
-│   ├── index.rst
-│   └── make.bat
+│   ├── cifar10
+│   ├── data_handler.py
+│   └── retriever
+├── data.py
 ├── models
+│   ├── neermita
+│   │   ├── ada_boost_model.pkl
+│   │   ├── decision_tree_model.pkl
+│   │   ├── knn_model.pkl
+│   │   └── random_forest_model.pbz2
+│   ├── default
+│   │   ├── AdaBoost.pkl
+│   │   ├── PCA.pkl
+│   │   └── svm.pkl
+│   ├── siddesh
+│   │   ├── sid_dt_classifier_hog.pkl
+│   │   ├── sid_knn_classifier_hog.zip
+│   │   └── sid_rf_classifier_hog.zip
+│   └── svm_model.pkl
 ├── notebooks
-│   ├── Neermita
-│   │   └── PRML_PROJECT.ipynb
 │   ├── bhargavi
-│   │   └── bhargavi_sift.ipynb
-│   └── shyam
-│       └── prml_pre_mid_report_experiment_0.ipynb
-├── references
+│   │   ├── bhargavi_sift.ipynb
+│   │   └── bhargavi_sift.py
+│   ├── neermita
+│   │   ├── CNN_clustering.ipynb
+│   │   ├── Clustering_with_PCA+LDA+tSNE.ipynb
+│   │   ├── PRML_PROJECT.ipynb
+│   │   └── PRML_PROJECT_save_projection_vector.ipynb
+│   ├── sakshi
+│   │   └── Sakshi_lda_3_classifiers.ipynb
+│   ├── shyam
+│   │   ├── cosine_similarity.ipynb
+│   │   ├── prml_pre_mid_report_experiment_0.ipynb
+│   │   └── simple_fft_transformed_cifar10_for_classification.ipynb
+│   └── siddesh
+│       ├── SIDDHESH_CLUSTER.ipynb
+│       └── SIDDHESH_HOG.ipynb
 ├── reports
+│   ├── Using PCA as a dimensionality reduction technique.docx
 │   └── figures
 ├── requirements.txt
-├── setup.py
-├── src
-│   ├── __init__.py
-│   ├── data
-│   │   ├── __init__.py
-│   │   └── make_dataset.py
-│   ├── features
-│   │   ├── __init__.py
-│   │   └── build_features.py
-│   ├── models
-│   │   ├── __init__.py
-│   │   ├── predict_model.py
-│   │   └── train_model.py
-│   └── visualization
-│       ├── __init__.py
-│       └── visualize.py
-├── test_environment.py
-└── tox.ini
-20 directories, 27 files
+├── retriever.py    (Retriever)
+├── retriever_clustering.py
+└── viewer.py       (PyQT app)
 ```
+
+## DEMONSTRATION:
+
+- Visit the following webpage to use the retriever: 
+- Or else, 
+    -  set up the project using `git clone "project url"`
+    -  run 'pip install -r requirements.txt'
+    -  run 'python viewer.py'
+
+## TEAM MEMBERS:
+1. SHYAM SATHVIK
+2. NEERMITA BHATTACHARYA
+3. SIDDESH AYYATHAN
+4. SAKSHI SHARMA
+5. GUBBALA BHARGAVI
