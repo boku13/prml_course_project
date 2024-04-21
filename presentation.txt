@@ -1,0 +1,62 @@
+Hello, I'm Shyam Sathvik, and I have my team mate, Neermita Bhattacharya with me.
+
+This video is intended to be a presentation of all the work we've put into our Pattern Recognition and
+Machine Learning Cours Project.
+
+Our project aims to tackle the problem of image retrieval while constraining ourselves to
+machine learning techniques. 
+
+For the sake of this project, we constrain ourselves to the CIFAR10 dataset, as instructed by our
+course instructor Anand Mishra. The CIFAR 10 dataset is an image dataset, consisting of various image
+classes of everyday objects and animals. All the images are 32*32*3 pixels in size.
+
+The SOTA for image classification using CIFAR10 is almost close to 100%, but
+through our experiments we've found the training with machine learning models to be pretty
+scuffed with our maximum accuracy reaching only up to 60% with the limited compute available.
+
+In this project we've extensively explored most kinds of Classification and Clustering Machine Learning Techniques while making sure we employ a wide range of different feature transformation techniques to
+to make sure the models capture all the necessary information from the image data including the
+textures, the colors, and various other class specific information.
+
+The initial train of thought was to train and use various classification and clustering
+machine learning models to implement an image retrieval pipeline. We've also experimented with
+simple techniques such as employing cosine similarity, while also experimenting with a 
+few weirder techniques such as Fourier Domain Convolutions with Artificial Neural Networks, which was
+the limit of Deep Learning Techniques we were allowed to use.
+
+Coming to the specifics of the training, the results of our training have been acceptably good with 
+all of our team members reaching an accuracy of 50-60% with the techniques we've each benchmarked
+the dataset for. With Histogram of Gradients performing the best out of all the dimensionality
+reduction and feature extraction techniques we used.
+
+/// write a little more about performance and results.
+
+We've also employed various clustering based techniques, with t-SNE performing the best
+out of all the different feature transformation techniques. K-Means was then used to cluster the 
+transformed data.
+
+To implement our image retrieval pipeline, we first trained classification models, which would 
+perform inference on the input image sample, which would then predict a label, triggering the retriever
+to fetch image samples from the specific label from our image data bank.
+
+This approach could further be tuned with assigning multiple labels to a given image, and then 
+using a machine learning model to predict if an input image fits with more than one of those 
+labels. Similar images which fit the criterial of labels could then be fetched from the
+data bank.
+
+Similary, Clustering models have been used to form clusters of data, and then the retrieval
+would simply be performed by returning images from the same cluster as the test sample.
+
+To demonstrate the work we've done, a light-weight adaboost model has been deployed to the 
+web, and a simple demonstration page has been made for the same. For our mid term report, we've also
+made a simple pyqt5 app to demonstrate the retrieval capabilities of our models.
+
+An input image can be dragged into the drop box, which then retrieves similar images!
+
+And there you go, that concludes our presentation for our course project.
+
+THANK YOU!
+
+
+
+
